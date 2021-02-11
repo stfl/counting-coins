@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "counting_coins"
+version = "1.0"
+description = ""
+authors = ["Stefan Lendl <ste.lendl@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.2.2"
+openpyxl = "^3.0.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
