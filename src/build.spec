@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['main.py'],
+a = Analysis(['counting.py'],
              pathex=['/work/papa/counting_coins'],
              binaries=[],
              datas=[],

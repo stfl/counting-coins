@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "counting_coins"
+name = "counting-coins"
 version = "1.0"
-description = ""
+description = "Counting Coins in a massive xlsx database"
 authors = ["Stefan Lendl <ste.lendl@gmail.com>"]
 license = "MIT"
 
