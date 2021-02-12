@@ -24,7 +24,10 @@ lager[lager['Artikelnr'] == 'DEU2015002320']['verkauft'].max()
 
 # Load Coin Database
 coin_db = pd.read_excel('Münzdatenbank.xlsx',
-                        dtype={'groupid': str})
+                        dtype={
+                            'groupid': str,
+                            'Praegejahr': str
+                            })
 
 # Generate the Picpath
 coin_db['picpath'] = coin_db['Artikelnr'] + '0.jpg'
