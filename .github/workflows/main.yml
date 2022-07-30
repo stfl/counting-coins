@@ -23,3 +23,10 @@ jobs:
       with:
         name: counting-coins
         path: src/dist/windows
+        
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: src/dist/windows
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
